@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>password_strength.png</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.v0rn.lbaction.xkcdpass</string>
+	<key>CFBundleName</key>
+	<string>xkcdpass</string>
+	<key>CFBundleVersion</key>
+	<string>0.1</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>James Vaughn</string>
+		<key>LBEmail</key>
+		<string></string>
+		<key>LBSummary</key>
+		<string>Simple/primitive LaunchBar action for xkcdpass (https://github.com/redacted/XKCD-password-generator)</string>
+		<key>LBTwitter</key>
+		<string></string>
+		<key>LBWebsiteURL</key>
+		<string>https://github.com/v0rn/xkcdpass.lbaction</string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>string</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>xkcdpass.sh</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
